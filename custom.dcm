@@ -1,0 +1,25 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM1117
+D 800mA Low-Dropout Linear Regulator
+K linear regulator ldo positive
+F http://www.ti.com/lit/ds/symlink/lm1117.pdf
+$ENDCMP
+#
+$CMP SA612
+D Double-balanced mixer and oscillator
+K mixer
+$ENDCMP
+#
+$CMP SI5351A
+D I2C Programmable any-frequency CMOS clock generator + VCXO
+K vco, vcxo, dds, generator
+$ENDCMP
+#
+$CMP STM32F37x
+D Core: ARM Cortex-M4 Package: LQFP48 Flash: 64KB Ram: 16KB Frequency: 72MHz Voltage: 2..3.6V IO-pins: 37
+K ARM Cortex-M4 STM32F3 STM32F373
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00046749.pdf
+$ENDCMP
+#
+#End Doc Library
